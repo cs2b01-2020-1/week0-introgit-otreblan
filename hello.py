@@ -1,3 +1,7 @@
 #!/usr/bin/env python3
 
-print("Hello")
+import readline
+
+name: str = input(">")
+
+print("Hello " + name)
