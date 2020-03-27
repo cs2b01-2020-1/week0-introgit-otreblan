@@ -1,7 +1,7 @@
 # Maintainer: Otreblan <otreblain@gmail.com>
 
 pkgname=gendiff-git
-pkgver=r7.61927bc
+pkgver=r8.aeec862
 pkgrel=1
 pkgdesc="diff"
 arch=('any')

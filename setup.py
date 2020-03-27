@@ -23,7 +23,7 @@ setuptools.setup(
 
     entry_points={
         "console_scripts": [
-            "gendiff = gendiff.__main__:main",
+            "gendiff = gendiff.__init__:main",
         ],
     },
     package_data={
