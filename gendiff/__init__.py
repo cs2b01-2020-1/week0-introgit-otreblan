@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 
-import os
-
 from difflib import SequenceMatcher
 from typing import List
 from tabulate import tabulate
+from os import listdir
+from os.path import dirname, realpath
 
 
 def main():
 
-    preffix: str = "./genomas/"
+    preffix: str = dirname(realpath(__file__)) + "/genomas/"
 
-    fileList: List[str] = os.listdir(preffix)
+    fileList: List[str] = listdir(preffix)
 
     rows: List[List[str]] = [[]]
 
